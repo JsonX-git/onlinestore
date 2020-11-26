@@ -18,7 +18,4 @@ export default {
 
 <style lang="less">
 @import "./assets/css/base.css";
-#app {
-  // border: 3px solid black;
-}
 </style>

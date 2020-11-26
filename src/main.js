@@ -6,8 +6,9 @@ import Axios from './network/request'
 Vue.config.productionTip = false
 
 Vue.use(Axios)
-new Vue({
+let instance=new Vue({
   render: h => h(App),
   router
 }).$mount('#app')
 
+export default instance

@@ -4,7 +4,7 @@ import axios from 'axios'  // es6 语法
 
 
 // 2-创建一个axios实例(注意: 此处使用的时axios的实例,而不是axios本身,这样可以创建多个实例使用),并进行基本配置
-const Axios = axios.create({ baseURL: 'http://123.207.32.32:8000', withCredentials: true })
+const Axios = axios.create({ baseURL: 'http://152.136.185.210:8000/api/w6', withCredentials: true })
 
 // 3-配置拦截器
 // 3.1-配置请求拦截器

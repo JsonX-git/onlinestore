@@ -25,11 +25,7 @@ export default {
   },
 
   methods: {},
-  created() {
-    setTimeout(() => {
-      console.log(111111, this.recommends)
-    }, 1000)
-  },
+  created() {},
 }
 </script>
 
